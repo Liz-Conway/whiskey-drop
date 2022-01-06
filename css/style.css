@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto+Slab:wght@400;700&display=swap");
+h2 {
+  font-family: "Roboto Slab", serif;
+}
+
+.quote p {
+  font-size: 1.2rem;
+}
+
+.containerWrapperRed {
+  color: white;
+  background-color: #f05f40;
+}
+
+.alertContainer {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.calloutContainer {
+  height: 100vh;
+  background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.contentContainer {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.pageHeader {
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+.pageHeader h2 {
+  margin-top: 0;
+}
+
+.quotes .pageHeader {
+  margin-bottom: 25px;
+}
+
+body {
+  font-family: "Gabriela", serif;
+}
+
+/*Jumbotron */
+.jumbotronHeader {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.jumbotron {
+  background: transparent;
+}
+.jumbotron small {
+  font-size: 60%;
+  font-style: italic;
+  color: #fffdf6;
+}
+.jumbotron .lead {
+  margin: 25px 0;
+  color: #a7a7a7;
+}
+
+.blockDivider {
+  width: 75px;
+  height: 5px;
+  border: 0;
+  background-color: #444;
+}
+.blockDividerOrange {
+  background-color: #f05f40;
+}
+.blockDividerWhite {
+  background-color: white;
+}
+.blockDividerShort {
+  width: 35px;
+}
+
+.opaqueOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.buttonCTA {
+  font-weight: 700;
+  border-radius: 23px;
+  width: 160px;
+  z-index: 10;
+}
+
+.buttonRed {
+  color: white;
+  background-color: #f05f40;
+  border-color: #f05f40;
+}
+.buttonRed:hover, .buttonRed:active, .buttonRed:focus, .buttonRed:active:focus {
+  background-color: #df4929;
+  border-color: #df4929;
+}
+
+.navAlertContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+}
+
+/*Overwrite Bootstrap default navbar */
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.navbar .navbar-toggler {
+  border: 0;
+}
+.navbar .navbar-nav a {
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.siteWideAlert {
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 5px 15px;
+  background-color: #eec802;
+  border-color: #eec802;
+}
+
+.featureList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.feature i {
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 45px;
+}
+.feature .btn {
+  background-color: white;
+  border-radius: 15px;
+  border-color: white;
+  min-width: 100px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #f05f40;
+}
+
+.mediaList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mediaList .media {
+  width: 45%;
+}
+.mediaList .media img {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
