@@ -7,6 +7,63 @@ h2 {
   font-size: 1.2rem;
 }
 
+s {
+  display: none;
+}
+@media only screen and (min-width: 37.5em) {
+  s {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 37.5em) {
+  .lead span {
+    display: none;
+  }
+}
+
+.navbar-text {
+  display: none;
+}
+@media only screen and (min-width: 50em) {
+  .navbar-text {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 37.5em) {
+  nav li:last-child {
+    display: none;
+  }
+}
+
+.siteWideAlert {
+  display: none;
+}
+@media only screen and (min-width: 37.5em) {
+  .siteWideAlert {
+    display: block;
+  }
+}
+
+.media img {
+  display: none;
+}
+@media only screen and (min-width: 37.5em) {
+  .media img {
+    display: inline-block;
+  }
+}
+
+.fas {
+  display: none;
+}
+@media only screen and (min-width: 37.5em) {
+  .fas {
+    display: block;
+  }
+}
+
 .containerWrapperRed {
   color: white;
   background-color: #f05f40;
@@ -53,6 +110,14 @@ h2 {
 
 body {
   font-family: "Gabriela", serif;
+}
+
+.sectionHeading h3 {
+  text-transform: uppercase;
+}
+
+.threeReasons {
+  background-color: white;
 }
 
 /*Jumbotron */
@@ -203,6 +268,21 @@ body {
 }
 .mediaList .media img {
   margin-right: 10px;
+}
+
+.rowTable {
+  display: table;
+}
+
+.sectionColumn {
+  display: table-cell;
+  padding: 0 30px 30px;
+}
+.sectionHeading {
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

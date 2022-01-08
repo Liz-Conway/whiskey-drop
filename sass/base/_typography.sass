@@ -6,3 +6,35 @@ h2
 .quote p
 	font-size: 1.2rem
 	
+s
+	display: none
+	@include respond(tabletPortrait)
+		display: inline
+
+.lead span
+	@include respond(tabletPortrait)
+		display: none
+
+.navbar-text
+	display: none
+	@include respond(tabletLandscape)
+		display: block
+
+nav li:last-child
+	@include respond(tabletPortrait)
+		display: none
+
+.siteWideAlert
+	display: none
+	@include respond(tabletPortrait)
+		display: block
+
+.media img
+	display: none
+	@include respond(tabletPortrait)
+		display: inline-block
+		
+.fas
+	display: none
+	@include respond(tabletPortrait)
+		display: block
