@@ -221,9 +221,14 @@ hr.blockDividerShort {
 }
 
 .feature {
-  width: 30%;
+  width: 45%;
   text-align: center;
   margin-bottom: 40px;
+}
+@media only screen and (min-width: 37.5em) {
+  .feature {
+    width: 30%;
+  }
 }
 .feature:last-child {
   display: none;
