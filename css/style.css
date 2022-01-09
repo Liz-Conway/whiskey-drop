@@ -111,6 +111,7 @@ body {
 
 .jumbotron {
   background: transparent;
+  margin-top: 35px;
 }
 .jumbotron small {
   font-size: 60%;
