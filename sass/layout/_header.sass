@@ -8,3 +8,14 @@
 
 .quotes .pageHeader
 	margin-bottom: 25px
+
+.siteWideAlert
+	border-radius: 0
+	margin-bottom: 0
+	padding: 5px 15px
+	background-color: $alertBG
+	border-color: $alertBG
+	display: none
+	@include respond(tabletPortrait)
+		display: block
+

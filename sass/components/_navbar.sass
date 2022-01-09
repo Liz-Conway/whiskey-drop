@@ -19,15 +19,19 @@
 		
 	.navbar-nav a
 		font-weight: $bold
-	
-		
-.navbar-brand
-	font-weight: $bold
 
-.siteWideAlert
-	border-radius: 0
-	margin-bottom: 0
-	padding: 5px 15px
-	background-color: $alertBG
-	border-color: $alertBG
+	&-text
+		display: none
+		@include respond(tabletLandscape)
+			display: block
+
+	&-brand
+		font-weight: $bold
+	
+nav li:last-child
+	@include respond(tabletPortrait)
+		display: none
+		
+
+
 	
